@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.platform = :ios
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '10.0'
 s.name = "BoosterIOS"
 s.summary = "BoosterIOS"
 s.version = "0.1.0"
@@ -14,6 +14,5 @@ s.framework = "UIKit"
 s.source_files = "Booster/**/*"
 s.exclude_files = "Booster/**/*.plist"
 s.swift_version = '5.0'
-s.ios.deployment_target  = '11.0'
 
 end
